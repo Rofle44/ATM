@@ -1,0 +1,57 @@
+type: PowerTurret
+name: Nuker
+description: Shoots gigantic nukes that damages evey enemy in a big radius.
+health: 2000
+category: turret
+size: 4
+reload: 600
+shootCone: 2
+rotateSpeed: 10
+targetAir: true
+targetGround: true
+range: 260
+recoil: 4
+consumes: {
+	power: 20
+}
+inaccuracy: 10
+shots: 1
+shootType: {
+	type: MissileBulletType
+	lifetime: 10000
+	speed: 3
+	hitShake: 30
+	hitEffect: nuclearShockwave
+	shootEffect: shockwave
+	shootSound: explosion
+	hitSound: explosionbig
+	bulletHeight: 20
+	bulletWidth: 20
+	bulletSprite: atm-nuke
+	splashDamage: 500
+	splashDamageRadius: 1000
+	damage: 10000
+	fragBullets: 5000
+	fragBullet: {
+		type: LiquidBulletType
+		liquid: napalm
+		speed: 0.5
+		lifetime: 180
+		fragBullets: 100
+		fragBullet: {
+			type: LiquidBulletType
+			liquid: slag
+			lifetime: 1000
+			speed: 1
+		}
+	}
+}
+requirements: [
+	titanium/2500
+	thorium/5000
+	silicon/500
+	plastanium/200
+	lead/1000
+	copper/1000
+]
+research: meltdown

@@ -1,0 +1,27 @@
+type: OverdriveProjector
+name: Admin Overclocker
+size: 3
+health: 999900
+range: 90
+speedBoost: 9999
+phaseRangeBoost: 60
+speedBoostPhase: 999999
+category: effect
+buildVisibility: sandboxOnly
+requirements: [
+	lead/1000
+	titanium/1100
+	copper/1000
+	plastanium/50
+]
+consumes: {
+	power: 1
+	items: {
+		items: [
+			phase-fabric/1
+		]
+		booster: true
+		optional: true
+	}
+}
+research: overdrive-projector

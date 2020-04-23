@@ -1,0 +1,40 @@
+type: PowerTurret
+name: Long Range Rocket Launcher
+description: Shoots a gigantic Rocket at enemies.
+health: 1000
+category: turret
+size: 3
+reload: 60
+shootCone: 5
+rotateSpeed: 10
+targetAir: false
+targetGround: true
+range: 360
+consumes: {
+	power: 75
+}
+inaccuracy: 5
+shots: 1
+shootType: {
+	type: BasicBulletType
+	lifetime: 1000
+	speed: 4
+	shootSound: boom
+    bulletSprite: atm-rocket
+	splashDamageRadius: 108
+	splashDamage: 100
+    damage: 200
+	hitEffect: blastExplosion
+	hitSound: explosionbig
+	frontColor: ffffff
+	backColor: ff0000
+	bulletHeight: 25
+	bulletWidth: 25
+}
+requirements: [
+	copper/150
+	lead/150
+	dark-titanium/200
+	silicon/100
+]
+research: duo

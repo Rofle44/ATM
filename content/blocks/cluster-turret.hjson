@@ -1,0 +1,73 @@
+type: PowerTurret
+name: Cluster Turret
+description: The cluster turret's shot is like a virus, it starts with one, and seconds later the entire world is fucked up.
+health: 750
+category: turret
+size: 3
+reload: 160
+shootCone: 12
+rotateSpeed: 10
+targetAir: true
+targetGround: true
+range: 120
+powerUse: 5
+inaccuracy: 5
+shots: 1
+shootType: {
+	type: MissileBulletType
+	lifetime: 1000
+	speed: 9
+	shootSound: boom
+	hitEffect: blastExplosion
+	frontColor: 00ff00
+	backColor: 00ff00
+	homingPower: 20
+	homingRange: 128
+	fragBullets: 10
+	fragBullet: {
+		type: MissileBulletType
+		lifetime: 100
+		speed: 7
+		shootSound: boom
+		hitEffect: blastExplosion
+		frontColor: 00ff00
+		backColor: 00ff00
+		homingPower: 20
+		homingRange: 128
+		damage: 10
+		fragBullets: 10
+		fragBullet: {
+			type: MissileBulletType
+			lifetime: 100
+			speed: 7
+			shootSound: boom
+			hitEffect: blastExplosion
+			frontColor: 00ff00
+			backColor: 00ff00
+			homingPower: 20
+			homingRange: 128
+			damage: 10
+			fragBullets: 10
+			fragBullet: {
+				type: MissileBulletType
+				lifetime: 100
+				speed: 7
+				shootSound: boom
+				hitEffect: blastExplosion
+				frontColor: 00ff00
+				backColor: 00ff00
+				homingPower: 20
+				homingRange: 128
+				damage: 10
+			}
+		}
+	}
+}
+requirements: [
+	titanium/1000
+	thorium/1000
+	silicon/250
+	plastanium/250
+	metaglass/500
+]
+research: duo

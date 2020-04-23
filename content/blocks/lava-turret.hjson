@@ -1,0 +1,32 @@
+type: BurstTurret
+name: Lava Sprayer
+description: Sprays lava because fuck you thats why.
+health: 800
+category: turret
+size: 2
+reload: 180
+shootCone: 5
+rotateSpeed: 10
+targetAir: true
+targetGround: true
+range: 220
+powerUse: 1
+inaccuracy: 10
+shots: 1000
+bulletSpread: 0
+burstSpacing: 0.01
+ammo: {
+	scrap: {
+		type: LiquidBulletType
+		liquid: slag
+		speed: 5
+		lifetime: 1000
+	}
+}
+requirements: [
+	copper/50
+	lead/150
+	titanium/100
+	silicon/25
+]
+research: duo

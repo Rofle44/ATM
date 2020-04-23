@@ -1,0 +1,34 @@
+type: PowerTurret
+name: Piercer
+description: Shoots extremely sharp bullets that pierce through enemies. By the way it's turret in case you didn't know~
+health: 1000
+category: turret
+size: 2
+reload: 60
+rotateSpeed: 100
+shootCone: 1
+targetAir: true
+targetGround: true
+range: 200
+consumes: {
+	power: 3600
+}
+inaccuracy: 10
+shots: 1
+shootType: {
+	type: MissileBulletType
+	lifetime: 60
+	speed: 4
+	bulletHeight: 20
+	bulletWidth: 3
+	pierce: true
+	damage: 10000
+	collidesTeam: false
+	collidesTile: false
+}
+requirements: [
+	titanium/2000
+	lead/3000
+	copper/5000
+]
+research: meltdown

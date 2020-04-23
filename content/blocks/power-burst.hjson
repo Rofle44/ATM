@@ -1,0 +1,35 @@
+type: BurstTurret
+name: PowerBurst
+desctiption: After a few seconds of charging it shoots many power shots at enemies. I mean, what else is it gonna shoot at? Blocks probably.
+health: 500
+category: turret
+size: 4
+reload: 90
+shootCone: 5
+rotateSpeed: 10
+targetAir: true
+targetGround: true
+range: 180
+recoil: 5
+burstSpacing: 1
+shots: 20
+spread: 0
+inaccuracy: 0
+shootSound: shootBig
+ammo: {
+	scrap: {
+		type: BasicBulletType
+		speed: 4
+		damage: 30
+		lifetime: 60
+		bulletHeight: 15
+		bulletWidth: 7.5
+	}
+}
+inaccuracy: 10
+requirements: [
+	titanium/200
+	lead/500
+	copper/500
+]
+research: meltdown

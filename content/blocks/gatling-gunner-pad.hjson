@@ -1,0 +1,16 @@
+name: Gatling Gunner Mech Pad
+description: Cures cancer. Jk transforms you into the Gatling Gunner Mech
+type: MechPad
+mech: gatling-gunner
+size: 4
+consumes: {
+	power: 1
+}
+category: upgrade
+research: wraith-factory
+requirements: [
+	titanium/1000
+	copper/2000
+	lead/2000
+	thorium/1000
+]

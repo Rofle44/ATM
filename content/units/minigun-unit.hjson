@@ -1,0 +1,23 @@
+type: GroundUnit
+name: Gatling Gunner
+description: Shoots bullets at a crazy fast rate.
+speed: 0.1
+itemCapacity: 10
+health: 200
+mass: 4
+flying: false
+weapon: {
+	name: gatling-gun-mech-unit
+	reload: 4
+	length: 2
+	alternate: true
+	shots: 1
+	recoil: 1
+	bullet: {
+		speed: 4
+		damage: 10
+		lifetime: 30
+		bulletHeight: 7
+		bulletWidth: 7
+	}
+}

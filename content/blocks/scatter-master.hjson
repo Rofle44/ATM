@@ -1,0 +1,34 @@
+type: PowerTurret
+name: Scatter Master
+description: Shoots thousands of ammo at enemies in one second.
+health: 1000
+category: turret
+size: 4
+reload: 90
+shootCone: 10
+rotateSpeed: 30
+tagetAir: true
+targetGround: true
+range: 180
+powerUse: 360
+inaccuracy: 0
+shots: 300
+shootType: {
+	type: BasicBulletType
+	bulletSprite: atm-round-shot
+	speed: 4
+	damage: 40
+	frontColor: ffff00,
+	homingPower: 10
+	homingRange: 200
+	despawnEffect: pulverizeSmall
+	shootSound: pew
+	lifetime: 1000
+}
+requirements: [
+	copper/5000
+	lead/2000
+	titanium/1000
+	thorium/1000
+]
+research: duo

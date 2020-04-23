@@ -1,0 +1,8 @@
+name: Napalm
+description: Very hot and flammable fluid. That's it.
+temperature: 5
+viscosity: 0.2
+effect: burning
+color: "#f3f3f3"
+flammability: 10000
+explosiveness: 10000

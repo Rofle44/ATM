@@ -1,0 +1,26 @@
+name: Miner
+description: A slow mining drone that can drill up ores with a crazy speed and capacity.
+health: 600
+mass: 5
+drillPower: 10
+mineSpeed: 10
+itemCapacity: 500
+speed: 0.5
+maxSpeed: 7
+boostSpeed: 1
+flying: false
+weapon: {
+	name: miner-gun
+	reload: 30
+	length: 2
+	alternate: false
+	shots: 1
+	recoil: 1
+	bullet: {
+		speed: 4
+		damage: 30
+		lifetime: 70
+		bulletHeight: 7
+		bulletWidth: 7
+	}
+}

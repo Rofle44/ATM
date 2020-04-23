@@ -1,0 +1,5 @@
+type: material
+name: Dark Titanium
+description: A very sturdy version of the normal titanium.
+cost: 3
+color: 000000

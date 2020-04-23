@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Pressure Forge
+description: Makes Dark Titanium
+hasPower: true
+size: 4
+hasLiquids: false
+craftTime: 300
+updateEffect: smoke
+itemcapacity: 50
+consumes: {
+	power: 3.5
+	items: {
+		items: [
+			titanium/10
+			coal/10
+		]
+	}
+}
+requirements: [
+	copper/100
+	lead/100
+	silicon/75
+	titanium/250
+]
+category: crafting
+research: graphite-press
+outputItem: dark-titanium/5

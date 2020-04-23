@@ -1,0 +1,41 @@
+type: PowerTurret
+name: Fire Rocke Shooter
+description: Shoots flammable rocks.
+category: turret
+size: 4
+health: 500
+range:200
+powerUse: 20
+reload:60
+targetAir: true
+targetGround: true
+shootCone: 15
+rotateSpeed: 10
+shots: 15
+spread: 2
+inaccuracy: 0
+recoil: 1
+shootType: {
+    type: BasicBulletType
+    lifetime: 1000
+    splashDamage: 4
+    splashDamageRadius: 16
+    incendChance: 100
+    incendAmount: 100
+    incendSpread: 10
+    shootSound: shotgun
+    hitEffect: fire
+    hitSound: boom
+    speed: 4
+    bulletWidth: 15
+    bulletHeight: 15
+    frontColor: 000000
+    backColor: 0a0a0a
+}
+requirements: [
+	titanium/750
+	lead/500
+	copper/750
+    dark-titanium/350
+]
+research: duo

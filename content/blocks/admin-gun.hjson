@@ -1,0 +1,35 @@
+type: PowerTurret
+name: Admin Gun
+description: Shoots thousands of ammo at enemies in one second.
+health: 10000000
+category: turret
+size: 4
+reload: 0
+shootCone: 100
+rotateSpeed: 9999
+tagetAir: true
+targetGround: true
+range: 99999
+powerUse: 0
+inaccuracy: 0
+shots: 900
+spread: 1
+buildVisibility: sandboxOnly
+shootType: {
+	type: BasicBulletType
+	bulletSprite: atm-round-shot
+	speed: 15
+	damage: 999999
+	frontColor: ffff00,
+	homingPower: 10000
+	homingRange: 200000000
+	despawnEffect: pulverizeSmall
+	shootSound: pew
+	lifetime: 100000
+	bulletHeight: 10
+	bulletWidth: 10
+}
+requirements: [
+	copper/1
+]
+research: duo

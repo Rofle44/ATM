@@ -1,0 +1,25 @@
+name: Minigun Unit Factory
+description: Produces Minigun Ground Units.
+type: UnitFactory
+unitType: minigun-unit
+maxSpawn: 100
+size: 2
+produceTime: 600
+consumes: {
+  power: 1
+  items: {
+    items: [
+      titanium/200
+	  copper/200
+	  lead/200
+    ]
+  }
+}
+category: units
+research: wraith-factory
+requirements: [
+	titanium/2000
+	copper/2000
+	lead/2000
+	thorium/1000
+]

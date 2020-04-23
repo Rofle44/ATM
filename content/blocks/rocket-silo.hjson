@@ -1,0 +1,39 @@
+type: PowerTurret
+name: Rocket Silo
+description: Shoots small explosive Rockets at enemies.
+health: 900
+category: turret
+size: 2
+reload: 40
+shootCone: 5
+rotateSpeed: 10
+targetAir: false
+targetGround: true
+range: 180
+powerUse: 10
+inaccuracy: 10
+shots: 3
+spread: 12
+shootType: {
+	type: MissileBulletType
+	lifetime: 1000
+	speed: 7.5
+	shootSound: shotgun
+	splashDamageRadius: 64
+	splashDamage: 30
+	hitEffect: blastExplosion
+	hitSound: boom
+	frontColor: 000000
+	backColor: 000000
+	homingPower: 3
+	homingRange: 64
+	bulletHeight: 10
+	bulletWidth: 10
+}
+requirements: [
+	copper/50
+	lead/75
+	dark-titanium/50
+	silicon/50
+]
+research: duo

@@ -1,0 +1,28 @@
+type: DoubleTurret
+name: Copper Gun
+description: An upgraded version of the regular duo.
+health: 500
+category: turret
+size: 2
+reload: 10
+shootCone: 5
+rotateSpeed: 20
+targetAir: true
+targetGround: true
+range: 175
+ammo: {
+	copper: {
+		speed: 10
+		damage: 20
+		bulletWidth: 20
+		bulletHeight: 20
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+	}
+}
+requirements: [
+	copper/200
+	lead/150
+	titanium/100
+]
+research: duo

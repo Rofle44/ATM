@@ -1,0 +1,26 @@
+type: OverdriveProjector
+name: Extreme Overclocker
+size: 3
+health: 200
+range: 60
+speedBoost: 10
+phaseRangeBoost: 60
+speedBoostPhase: 1
+category: effect
+requirements: [
+	lead/1000
+	titanium/1100
+	copper/1000
+	plastanium/50
+]
+consumes: {
+	power: 5
+	items: {
+		items: [
+			phase-fabric/1
+		]
+		booster: true
+		optional: true
+	}
+}
+research: overdrive-projector

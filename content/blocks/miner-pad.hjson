@@ -1,0 +1,15 @@
+name: Miner Mech Pad
+description: Transforms you into the miner mech.
+type: MechPad
+mech: miner
+size: 2
+consumes: {
+	power: 1
+}
+category: upgrade
+research: wraith-factory
+requirements: [
+	copper/2000
+	lead/2000
+	silicon/200
+]

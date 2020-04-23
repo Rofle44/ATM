@@ -1,0 +1,27 @@
+type: PowerTurret
+name: Gatling Gun
+description: Sasha's modern brother. Shoots very quick but	also very inaccurate. Good for damaging multiple enemies at a time.
+health: 1000
+category: turret
+size: 4
+reload: 1
+shootCone: 10
+rotateSpeed: 2
+targetAir: true
+range: 200
+powerUse: 2
+inaccuracy: 17
+shots: 2
+shootType: {
+	type: BasicBulletType
+	lifetime: 400
+	speed: 8
+	shootSound: shotgun
+	damage: 40
+}
+requirements: [
+	titanium/750
+	lead/500
+	copper/750
+]
+research: duo

@@ -1,0 +1,41 @@
+type: ChargeTurret
+name: Laser Turret
+description: Shoots a beam of light to eradicate enemies.
+health: 900
+category: turret
+size: 4
+reload: 60
+shootCone: 4
+rotateSpeed: 15
+targetAir: true
+targetGround: true
+range: 240
+powerUse: 360
+shootSound: laser
+chargeTime: 60
+shootType: {
+	type: BasicBulletType
+	damage: 100
+	speed: 5
+	lifetime: 47
+	bulletSprite: atm-laser-beam
+	frontColor: ff0000
+	backColor: bf0000
+	bulletWidth: 20
+	bulletHeight: 30
+	fragBullets: 10
+	fragBullet: {
+		type: BasicBulletType
+		damage: 10
+		speed: 3
+		lifetime: 1000
+		bulletSprite: atm-round-shot
+		frontColor: ff0000
+	}
+}
+requirements: [
+	metaglass/500
+	lead/250
+	titanium/100
+]
+research: duo

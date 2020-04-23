@@ -1,0 +1,25 @@
+name: Gatling Gunner
+description: Shoots bullets at a crazy fast rate.
+speed: 1
+boostSpeed: 1.5
+maxSpeed: 20
+mineSpeed: 0.5
+itemCapacity: 10
+health: 500
+mass: 4
+flying: false
+weapon: {
+	name: gatling-gun-mech
+	reload: 4
+	length: 2
+	alternate: true
+	shots: 1
+	recoil: 1
+	bullet: {
+		speed: 4
+		damage: 25
+		lifetime: 60
+		bulletHeight: 7
+		bulletWidth: 7
+	}
+}

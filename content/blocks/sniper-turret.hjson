@@ -1,0 +1,33 @@
+type: PowerTurret
+name: Sniper Turret
+description: Strongest and most precised Turret in this mod. Shoots very powerfull and fast shots.
+health: 700
+category: turret
+size: 2
+reload: 300
+shootCone: 5
+rotateSpeed: 10
+targetAir: true
+targetGround: true
+range: 300
+powerUse: 36
+inaccuracy: 0
+shots: 1
+shootType: {
+	type: BasicBulletType
+	bulletSprite: atm-round-shot
+	speed: 20
+	damage: 1000
+	frontColor: ffffff,
+	backColor: ffffff,
+	despawnEffect: pulverizeSmall
+	shootSound: shotgun
+	lifetime: 1000
+	knockback: 100
+}
+requirements: [
+	titanium/500
+	thorium/500
+	plastanium/500
+]
+research: duo

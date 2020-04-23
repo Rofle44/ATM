@@ -1,0 +1,21 @@
+type: PowerTurret
+name: Ultra Lancer
+description: Yup, thats a ultra lancer.
+health: 999999
+category: turret
+size: 2
+reload: 0
+shootCone: 5
+rotateSpeed: 10
+targetAir: true
+targetGround: true
+range: 200
+powerUse: 1
+inaccuracy: 0
+shots: 100
+buildVisibility: sandboxOnly
+shootType: lancerLaser
+requirements: [
+	copper/1
+]
+research: lancer
